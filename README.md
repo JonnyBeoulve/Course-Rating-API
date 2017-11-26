@@ -1,5 +1,5 @@
 # Course Rating API
-This express-based rest API allows users to interact with a Mongo database comprised of users, school courses, and course reviews.
+This express-based REST API allows users to interact with a Mongo database comprised of users, school courses, and course reviews.
 
 ## How to Use
 1. From terminal, install node dependencies by typing 'npm install'.
@@ -20,4 +20,5 @@ This express-based rest API allows users to interact with a Mongo database compr
 * Validator (https://www.npmjs.com/package/validator)
 
 ## Notes
-* The Mongo database is seeded upon each start, resetting the state of the database. This functionality can be removed in the index.js file.
+* The Mongo database is seeded upon each start using the data.json file in /src/data, resetting the state of the database. This functionality can be removed in the index.js file.
+* The CourseAPI.postman_collection.json file in the root directory contains example requests you can use to test the REST API. Using Postman you can import the file to quickly gain access to each of its requests.
