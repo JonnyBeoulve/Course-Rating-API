@@ -1,5 +1,5 @@
 # Course Rating API
-This Node and Express-based REST API allows users to interact with a Mongo database comprised of users, school courses, and course reviews.
+This Node and Express-based REST API allows users to interact with a custom Mongo database comprised of users, school courses, and course reviews.
 
 ## How to Use
 1. From terminal, install node dependencies by typing 'npm install'.
